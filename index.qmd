@@ -1,0 +1,40 @@
+---
+title: "SLE Signal Data"
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex,nofollow">
+---
+
+<main class="signal-page">
+  <section class="intro" aria-labelledby="page-title">
+    <p class="eyebrow">Recovered Signal Payload</p>
+    <h1 id="page-title">Signal Data</h1>
+    <br>
+    <p class="subtitle">TAC-AI was able to use your signal tracking data to recover this information from the transmitter.</p>
+  </section>
+
+  <ul class="entries" aria-label="Signal word number entries">
+    <li class="entry"><span class="word">Barcode</span><span class="number">48291736</span></li>
+    <li class="entry"><span class="word">Keyboard</span><span class="number">73019584</span></li>
+    <li class="entry"><span class="word">Breath</span><span class="number">16483920</span></li>
+    <li class="entry"><span class="word">Clock</span><span class="number">59027418</span></li>
+    <li class="entry"><span class="word">Money</span><span class="number">84620371</span></li>
+    <li class="entry"><span class="word">Future</span><span class="number">31875094</span></li>
+    <li class="entry"><span class="word">Cipher</span><span class="number">27460983</span></li>
+    <li class="entry"><span class="word">Signal</span><span class="number">91573842</span></li>
+    <li class="entry"><span class="word">Ghost</span><span class="number">63842019</span></li>
+    <li class="entry"><span class="word">Mirror</span><span class="number">40719365</span></li>
+    <li class="entry"><span class="word">Terminal</span><span class="number">15983647</span></li>
+    <li class="entry"><span class="word">Packet</span><span class="number">79261403</span></li>
+    <li class="entry"><span class="word">Antenna</span><span class="number">24098157</span></li>
+    <li class="entry"><span class="word">Kernel</span><span class="number">68150729</span></li>
+    <li class="entry"><span class="word">Circuit</span><span class="number">35619804</span></li>
+    <li class="entry"><span class="word">Shadow</span><span class="number">81946352</span></li>
+    <li class="entry"><span class="word">Vector</span><span class="number">50378291</span></li>
+    <li class="entry"><span class="word">Portal</span><span class="number">96712038</span></li>
+    <li class="entry"><span class="word">Glitch</span><span class="number">12589476</span></li>
+    <li class="entry"><span class="word">Archive</span><span class="number">60431785</span></li>
+  </ul>
+</main>

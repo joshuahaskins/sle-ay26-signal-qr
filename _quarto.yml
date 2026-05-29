@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "SLE Signal Data"
+  page-navigation: false
+  search: false
+  navbar: false
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    toc: false
+    title-block-banner: false
+    anchor-sections: false
+    code-tools: false
+    page-layout: full

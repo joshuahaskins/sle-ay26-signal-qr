@@ -1,0 +1,114 @@
+:root {
+  color-scheme: dark;
+  --bg: #0c0f12;
+  --panel: #151b20;
+  --line: #2c3942;
+  --text: #edf6ef;
+  --muted: #8fa39a;
+  --accent: #56f39a;
+  --code: #d7ffe7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    linear-gradient(180deg, rgba(86, 243, 154, 0.06), transparent 34%),
+    var(--bg);
+  color: var(--text);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+.quarto-title-block,
+#title-block-header,
+header,
+nav,
+.page-columns .sidebar {
+  display: none;
+}
+
+.page-columns,
+.page-layout-full,
+main.content {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}
+
+.signal-page {
+  width: min(920px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 36px 0;
+}
+
+.intro {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-family: "Cascadia Code", Consolas, monospace;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0 0 6px;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1;
+}
+
+.subtitle {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.entries {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.entry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  min-height: 54px;
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.word {
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.number {
+  font-family: "Cascadia Code", Consolas, monospace;
+  color: var(--code);
+  font-size: 1.02rem;
+  white-space: nowrap;
+}
